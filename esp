@@ -1,4 +1,3 @@
--- esp.lua
 --// Variables
 local Players = game:GetService("Players")
 local RunService = game:GetService("RunService")
@@ -64,7 +63,7 @@ end
 
 local function createEsp(player)
     local esp = {
-        -- ESP drawing objects
+        -- Define ESP drawing objects here
     }
 
     cache[player] = esp
@@ -72,7 +71,7 @@ local function createEsp(player)
 end
 
 local function isPlayerBehindWall(player)
-    -- Check if player is behind a wall
+    -- Implement wall check logic here
 end
 
 local function removeEsp(player)
